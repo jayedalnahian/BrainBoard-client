@@ -4,9 +4,9 @@ import Footer from "../components/rootLevelComponents/Footer";
 
 const MainLayout: React.FC = () => {
   return (
-    <div>
+    <div className="bg-[#F7F9FC]">
       <Navbar></Navbar>
-      <div className=""><Outlet></Outlet></div>
+      <div className="mt-16"><Outlet></Outlet></div>
       <Footer></Footer>
     </div>
   );
